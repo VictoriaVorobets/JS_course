@@ -1,0 +1,106 @@
+html {
+    height: 100%;
+}
+
+.parent {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    border: solid 6px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+
+.round {
+    border: solid 6px;
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    position: absolute;
+}
+
+.block_1 {
+    height: 70px;
+    width: 70px;
+    border: solid 6px;
+    position: absolute;
+    top: 105px;
+    left: 100px;
+}
+
+.block_2 {
+    height: 70px;
+    width: 70px;
+    border: solid 6px;
+    position: absolute;
+    top: 105px;
+    left: 320px;
+}
+
+.block_3 {
+    height: 70px;
+    width: 70px;
+    border: solid 6px;
+    position: absolute;
+    bottom: 105px;
+    left: 100px;
+}
+
+.block_4 {
+    height: 70px;
+    width: 70px;
+    border: solid 6px;
+    position: absolute;
+    bottom: 105px;
+    ;
+    left: 320px;
+}
+
+.block_5 {
+    height: 70px;
+    width: 70px;
+    border: solid 6px;
+    position: absolute;
+    top: -35px;
+    left: -35px;
+    border-radius: 35px;
+}
+
+.block_6 {
+    height: 70px;
+    width: 70px;
+    border: solid 6px;
+    position: absolute;
+    bottom: -35px;
+    left: -35px;
+    border-radius: 35px;
+}
+
+.block_7 {
+    height: 70px;
+    width: 70px;
+    border: solid 6px;
+    position: absolute;
+    top: -35px;
+    right: -35px;
+    border-radius: 35px;
+}
+
+.block_8 {
+    height: 70px;
+    width: 70px;
+    border: solid 6px;
+    position: absolute;
+    bottom: -35px;
+    right: -35px;
+    border-radius: 35px;
+}
