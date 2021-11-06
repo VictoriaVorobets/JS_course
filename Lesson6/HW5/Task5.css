@@ -1,0 +1,30 @@
+body {
+    position: relative;
+
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 25px;
+}
+
+.block {
+    font-size: 10px;
+    line-height: 20px;
+
+}
+
+.cube {
+    height: 25px;
+    width: 100px;
+    border: solid 1px;
+    position: fixed;
+
+}
+
+.cube:hover {
+    transform: scale(1);
+    border: solid 2px;
