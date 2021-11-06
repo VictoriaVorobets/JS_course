@@ -1,0 +1,30 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background: linear-gradient(135deg, #2b5063 23%, #2f6b7a 40%, #2f6b7a 40%, #2f6b7a 40%, #2f6b7a 40%, #449eb5 66%);
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.block {
+    height: 60px;
+    width: 100px;
+    border: solid 1px;
+    transition: 0.5s;
+}
+
+.block:hover {
+    height: 120px;
+    width: 200px;
+}
