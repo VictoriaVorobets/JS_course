@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    position: relative;
+}
+
+.block {
+    font-size: 10px;
+    line-height: 20px;
+
+}
+
+.cube {
+    height: 25px;
+    width: 100px;
+    border: solid 2px;
+}
+
+.cube:hover {
+    transform: scale(1.1);
+}
