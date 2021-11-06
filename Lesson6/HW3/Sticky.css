@@ -1,0 +1,27 @@
+
+body {
+    padding: 5px;
+    background: linear-gradient(135deg, #2b5063 23%, #2f6b7a 40%, #2f6b7a 40%, #2f6b7a 40%, #2f6b7a 40%, #449eb5 66%);
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    position: relative;
+}
+
+.block {
+    font-size: 10px;
+    color: blanchedalmond;
+    line-height: 20px;
+
+}
+
+.block_green {
+    background-color: yellowgreen;
+    height: 15px;
+    width: 100%;
+    position: sticky;
+    top: 7px;
+}
