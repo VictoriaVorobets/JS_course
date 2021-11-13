@@ -1,4 +1,4 @@
-Перевірка на пароль
+// Перевірка на пароль
 const пароль = prompt('Введіть пароль');
 if (пароль == 787898) {
     console.log('Пароль вірний');
@@ -7,32 +7,24 @@ if (пароль == 787898) {
 }
 
 
-Кількість столів
-let число = prompt('Введіть число');
-const x = 1;
-x + 1;
-x && 1;
-const y = 2;
-3;
-4;
-y + 2;
-y + 3;
-число + 4;
+// Кількість столів
+let number = prompt('Введіть число');
 
-if (число == x) {
-    console.log(x + 'стіл');
-} else if (число == y) {
-    console.log(y + 'столи');
+
+if (number == 1 && number + 1) {
+    console.log(number + 'стіл');
+} else if (number == 2 && number == 3 && number == 4 && number + 2 && number + 3 && number + 4){
+    console.log(number + 'столи');
 }
-if (число !== x && число !== y) {
-    console.log(число + 'столів')
+ else {
+    console.log(number + 'столів')
 }
 
 
 
 
 
-Повідомлення відносно ролі
+// Повідомлення відносно ролі
 let name = prompt('Як вас звати?');
 if (name == 'Ігор')
     alert('Привіт, адмін ' + name);
