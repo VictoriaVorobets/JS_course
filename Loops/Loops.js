@@ -54,15 +54,15 @@
 // }
 
 // Трикутник6
-
+// let n = 11;
 // let result = "";
-// for (let i = 1; i < 11; i++) {
-//     for (let j = 1; j < i; j++) {
-//         result = "";
+// for (let i = 1; i <= n - 1; i++) {
+//     for (let j = 0; j < i; j++) {
+//         result += " ";
 //     }
-//     for (let k = 11; k > i; k--) {
+//     for (let k = 0; k < n - i; k++) {
 //         result += "*";
 //     }
 //     console.log(result);
-//     result = '';
+//     result = "";
 // }
